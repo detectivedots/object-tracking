@@ -22,5 +22,5 @@ pip install -r requirements.txt
 ```
 3. Run the program:
 ```bash
-python tracker.py
+python main.py
 ```
