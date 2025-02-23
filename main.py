@@ -15,7 +15,7 @@ def get_nth_frame(n, cap):
 
 def select_object(cap):
     # Using the 10th frame because the first frame is usually dark
-    selection_frame = get_nth_frame(30, cap)
+    selection_frame = get_nth_frame(10, cap)
     selection_frame = cv2.flip(selection_frame, 1)
     box = cv2.selectROI("Select object then press space", selection_frame)
     cv2.destroyAllWindows()
