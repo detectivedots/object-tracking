@@ -8,7 +8,9 @@ This repository contains a Python implementation for a real-time object tracking
 - CSRT tracker is used for real-time object tracking.
 - The system uses the 10th frame because during the first frame the camera is a little darker.
 - Then `cv2.selectROI` is used to make the user choose an object to track.
+- After the object is selected press the `Space` button.
 - `cv2.TrackerCSRT()` is used to track the object.
+- To quit the program press the `esc` button.
 
 ## How to run
 1. Clone the Repository:
